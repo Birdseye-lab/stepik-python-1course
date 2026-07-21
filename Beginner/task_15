@@ -1,0 +1,4 @@
+p, o1 = int(input()), int(input())
+o2 = o1 // p
+o3 = o1 % p
+print(o2, o3, sep = '\n')
