@@ -1,0 +1,4 @@
+k = int(input())
+b = k + 1
+c = b + 1 
+print(k, b, c, sep = "\n")
