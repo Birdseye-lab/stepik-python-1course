@@ -1,0 +1,5 @@
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+if c == a or d == b:
+    print("YES")
+else:
+    print("NO")
