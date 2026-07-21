@@ -1,0 +1,4 @@
+min1 = int(input())
+h = min1 // 60 
+min2 = min1 % 60 
+print(min1, 'мин - это', h, 'час', min2, 'минут.')
