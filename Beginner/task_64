@@ -1,0 +1,6 @@
+age = float(input())
+if 1 <= age <= 2:
+    dogage = age * 10.5
+elif age > 2:
+    dogage = (age - 2) * 4 + 21
+print(dogage)
