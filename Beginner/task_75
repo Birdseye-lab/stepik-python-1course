@@ -1,0 +1,18 @@
+city1, city2, city3 = input(), input(), input()
+k1 = len(city1)
+k2 = len(city2)
+k3 = len(city3)
+maxx = max(k1, k2, k3)
+minn = min(k1, k2, k3)
+if len(city1) == minn:
+    print(city1)
+elif len(city2) == minn:
+    print(city2)
+else:
+    print(city3)
+if len(city1) == maxx:
+    print(city1)
+elif len(city2) == maxx:
+    print(city2)
+else:
+    print(city3)  
