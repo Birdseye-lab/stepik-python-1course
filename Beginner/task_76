@@ -1,0 +1,11 @@
+a, b, c = input(), input(), input()
+k1 = len(a)
+k2 = len(b)
+k3 = len(c)
+maxx = max(k1, k2, k3)
+minn = min(k1, k2, k3)
+aver = (k1 + k2 + k3) - minn - maxx
+if aver == (maxx + minn) / 2:
+    print("YES")
+else:
+    print("NO")
