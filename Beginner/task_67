@@ -1,0 +1,5 @@
+a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
+minn = min(a, b, c, d, e)
+maxx = max(a, b, c, d, e)
+print("Наименьшее число =", minn)
+print("Наибольшее число =", maxx)
