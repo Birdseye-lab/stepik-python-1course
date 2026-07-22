@@ -1,0 +1,7 @@
+from math import *
+a, b = float(input()), float(input())
+ar = (a + b) / 2
+geo = sqrt(a * b)
+gar = (2 * a * b) / (a + b)
+kvad = sqrt((pow(a, 2) + pow(b, 2)) / 2)
+print(ar, geo, gar, kvad, sep = '\n')
