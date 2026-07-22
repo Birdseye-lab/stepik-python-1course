@@ -1,0 +1,5 @@
+name = input()
+k = len(name)
+k = str(k)
+p = 'Футбольная команда ' + name + " имеет длину " + k + " символов"
+print(p)
