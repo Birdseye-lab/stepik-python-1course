@@ -1,0 +1,14 @@
+for i in range(6):
+    for i in range(3):
+        print("A", end = '')
+    print()
+for i in range(5):
+    for i in range(4):
+        print("B", end = '')
+    print()
+print('E')
+for i in range(9):
+    for i in range(5):
+        print("T", end = '')
+    print()
+print('G')
