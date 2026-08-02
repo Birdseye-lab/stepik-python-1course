@@ -1,0 +1,5 @@
+n1 = int(input())
+n2 = 2
+while n1 % n2 != 0:
+    n2 += 1
+print(n2)
