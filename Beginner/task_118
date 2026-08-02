@@ -1,0 +1,10 @@
+n = input()
+a = "Александра"
+b = "Левон"
+counter = 0
+while n != a:
+    n = input()
+while n != b:
+    counter += 1
+    n = input()
+print(counter - 1)
