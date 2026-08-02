@@ -1,0 +1,8 @@
+n  = int(input())
+k = n // 25
+n = n - (25 * k)
+o = n // 10
+n = n - (10 * o)
+t = n // 5
+n = n - (5 * t)
+print(k+o+t+n)
