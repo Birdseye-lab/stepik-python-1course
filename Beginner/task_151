@@ -1,0 +1,13 @@
+n = int(input())
+print("00:00")
+for i in range(1, 24):
+    if i ** n < 60:
+        r = i ** n
+        if len(str(i)) == 1:
+            print('0', i, ':', sep = '', end = '')
+        else:
+            print(i, ':', sep = '', end = '')
+        if len(str(r)) == 1:
+            print("0", r, sep = '')
+        else:
+            print(r)
