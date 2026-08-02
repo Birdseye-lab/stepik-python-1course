@@ -1,0 +1,10 @@
+n = input()
+w = n[0]
+for i in n:
+    if i <= w:
+        w = i
+        flag = 'YES'
+    else:
+        flag = "NO"
+        break
+print(flag)
