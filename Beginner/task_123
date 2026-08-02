@@ -1,0 +1,12 @@
+n = int(input())
+mxx = 0
+mnn = 9
+while n != 0:
+    last_digit = n % 10 
+    if last_digit >= mxx:
+        mxx = last_digit
+    if last_digit <= mnn:
+        mnn = last_digit 
+    n //= 10
+print("Максимальная цифра равна", mxx)
+print("Минимальная цифра равна", mnn)
