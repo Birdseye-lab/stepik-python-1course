@@ -1,0 +1,11 @@
+num = int(input())
+cnt = 0
+total = 1
+if len(str(num)) > 7:
+    cnt += 1
+while num % 100 != 11:
+    num = int(input())
+    if len(str(num)) > 7:
+        cnt += 1
+    total += 1
+print(cnt, '/', total, sep='')
