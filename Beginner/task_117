@@ -1,0 +1,4 @@
+n = input()
+while "_" in n:
+    n = input()
+print(n)
