@@ -1,0 +1,14 @@
+n = int(input())
+counter = 0
+count = 0 
+multiplication = 1
+last_digit2 = n % 10 
+while n != 0:
+    last_digit = n % 10 
+    counter += last_digit 
+    count += 1
+    multiplication *= last_digit
+    n //= 10 
+average = counter / count
+q = last_digit2 + last_digit
+print(counter, count, multiplication, average, last_digit, q, sep = '\n')
