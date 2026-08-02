@@ -1,0 +1,7 @@
+n = int(input())
+r = ''
+while n != 0:
+    last_digit = n % 10 
+    r += str(last_digit)
+    n //= 10
+print(r)
