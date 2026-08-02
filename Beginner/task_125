@@ -1,0 +1,4 @@
+n = int(input())
+t = len(str(n))
+e = n // (10 ** (t-2))
+print(e % 10)
