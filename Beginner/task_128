@@ -1,0 +1,11 @@
+n = int(input())
+k = len(str(n))
+counter = 1 
+flag = False
+for i in str(n):
+    if int(i) % 2 == 0:
+        print(counter, '-я четная цифра равна', ' ', i, sep = '')
+        counter += 1
+        flag = True
+if flag == False:
+    print('Четных цифр в числе нет')
