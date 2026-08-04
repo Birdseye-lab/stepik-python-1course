@@ -1,0 +1,9 @@
+s = input()
+digits = '0123456789'
+
+for c in s:
+    if c in digits:
+        print('Цифра')
+        break
+else:
+    print('Цифр нет')
