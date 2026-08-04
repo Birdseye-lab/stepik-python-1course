@@ -1,0 +1,9 @@
+s = input()
+cnt = s.count("f")
+
+if cnt == 0:
+    print("NO")
+elif cnt == 1:
+    print(s.index("f"))
+else:
+    print(s.index("f"), s.rindex("f"))
