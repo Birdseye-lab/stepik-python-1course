@@ -1,0 +1,8 @@
+s = input()
+r = s.replace("_", "")
+
+if (r.isalnum() and r.isupper() and r[0] in "АВЕКМНОРСТУХ" and r[4] in "АВЕКМНОРСТУХ" and 8 <= len(r) <= 9) and r[5] in "АВЕКМНОРСТУХ" and r[1:4].isdigit() and r[7:10].isdigit() and s[6] == '_':
+    print("YES")
+    
+else:
+    print("NO")
