@@ -1,0 +1,8 @@
+s = input()
+w = len(s)
+if w % 2 == 0:
+    p = w // 2
+    print(s[p:], s[:p], sep ='')
+else:
+    p = w // 2 + 1
+    print(s[p:], s[:p], sep ='')    
