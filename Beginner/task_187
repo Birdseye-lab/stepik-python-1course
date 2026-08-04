@@ -1,0 +1,6 @@
+s = input()
+q = s[1:]
+if s.startswith('@') and 5 <= len(s) <= 15 and (s.islower() or q.isdigit()) and q.isalnum():
+    print("Correct")
+else:
+    print("Incorrect")
