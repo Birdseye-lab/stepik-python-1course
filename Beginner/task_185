@@ -1,0 +1,5 @@
+s = input()
+a = s.index('h')
+b = s.rindex('h')
+s = s.replace(s[a:b+1], '')
+print(s)
