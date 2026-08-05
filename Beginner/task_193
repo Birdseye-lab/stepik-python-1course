@@ -1,0 +1,7 @@
+day, weight = int(input()), float(input())
+if 100 - day * 0.2 >= weight:
+    print(f"Все идет по плану")   
+    print(f"#{day} ДЕНЬ: ТЕКУЩИЙ ВЕС = {weight} кг, ЦЕЛЬ по ВЕСУ = {100 - day * 0.2} кг")
+else:
+    print(f"Что-то пошло не так")
+    print(f"#{day} ДЕНЬ: ТЕКУЩИЙ ВЕС = {weight} кг, ЦЕЛЬ по ВЕСУ = {100 - day * 0.2} кг")
