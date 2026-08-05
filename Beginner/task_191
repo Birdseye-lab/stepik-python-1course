@@ -1,0 +1,6 @@
+date = input()
+Euro = input()
+Yuan = input()
+
+s = f"На {date}: 1€ = {Euro}₽, 1¥ = {Yuan}₽"
+print(s)
